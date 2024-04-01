@@ -1,4 +1,5 @@
 import 'package:basics/widgets/Navigation%20Bar/navigation_bar.dart' as navbar;
+import 'package:basics/widgets/callToAction/call_to_action.dart';
 import 'package:basics/widgets/centeredView/centered_view.dart';
 import 'package:basics/widgets/course_details/course_details.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +21,8 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             navbar.NavigationBar(),
             Expanded(child: Row(children: [
-              CouseMaterial()
+              CouseMaterial(),
+              Expanded(child: Center(child: CallToAction(title: 'Join Course'),))
             ],))
           ],
         ),
