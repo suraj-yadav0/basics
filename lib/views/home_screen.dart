@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
             navbar.NavigationBar(),
             Expanded(child: Row(children: [
               CouseMaterial(),
-              Expanded(child: Center(child: CallToAction(title: 'Join Course'),))
+              Expanded(child: Center(child: CallToAction(title: 'Join Course',),))
             ],))
           ],
         ),

@@ -12,7 +12,7 @@ class CouseMaterial extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            'Flutter Web',
+            'FLUTTER WEB',
             style: TextStyle(
                 fontWeight: FontWeight.w800, height: 0.9, fontSize: 80),
           ),
